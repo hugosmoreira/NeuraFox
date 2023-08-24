@@ -68,6 +68,7 @@ export default function Example() {
                 <div className="space-y-2 py-6">
                   {navigation.map((item) => (
                     <a
+                      target="_parent" 
                       key={item.name}
                       href={item.href}
                       className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
@@ -124,7 +125,7 @@ export default function Example() {
                 <div className="mt-10 flex items-center gap-x-6">
                   <a
                     
-                    target="_blank"
+                    target="_parent" 
                     href="https://algochance.com/sign-up"
                     className="rounded-md bg-indigo-800 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-800"
                   >
