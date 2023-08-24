@@ -11,7 +11,7 @@ const navigation = [
   { name: 'Features', href: '#' },
   { name: 'Blog', href: '#' },
   { name: 'Company', href: '#' },
-  { name: 'Log in', href: 'https://algochance.com/sign-in' },
+  { name: 'Log in', href: 'https://algochance.com/sign-in,  ', target:"_parent"  },
 ]
 
 export default function Example() {
@@ -78,6 +78,7 @@ export default function Example() {
                 </div>
                 <div className="py-6">
                   <a
+                    target="_parent" 
                     href="https://algochance.com/sign-in"
                     className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                   >
@@ -107,7 +108,7 @@ export default function Example() {
                 <div className="hidden sm:mb-10 sm:flex">
                   <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-500 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
                     Anim aute id magna aliqua ad ad non deserunt sunt.{' '}
-                    <a href="https://algochance.com/sign-up" className="whitespace-nowrap font-semibold text-indigo-600">
+                    <a target="_parent" href="https://algochance.com/sign-up" className="whitespace-nowrap font-semibold text-indigo-600">
                       <span className="absolute inset-0" aria-hidden="true" />
                       try for free <span aria-hidden="true">&rarr;</span>
                     </a>
@@ -122,6 +123,7 @@ export default function Example() {
                 </p>
                 <div className="mt-10 flex items-center gap-x-6">
                   <a
+                    target="_parent"
                     href="https://algochance.com/sign-up"
                     className="rounded-md bg-indigo-800 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-800"
                   >
