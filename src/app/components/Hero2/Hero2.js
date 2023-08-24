@@ -11,7 +11,7 @@ const navigation = [
   { name: 'Features', href: '#' },
   { name: 'Blog', href: '#' },
   { name: 'Company', href: '#' },
-  { name: 'Log in', href: 'https://algochance.com/sign-in,  ', target:"_parent"  },
+  { name: 'Log in', href: 'https://algochance.com/sign-in', target:"_parent"  },
 ]
 
 export default function Example() {
