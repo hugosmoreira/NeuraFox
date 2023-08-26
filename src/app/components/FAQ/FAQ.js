@@ -17,11 +17,11 @@ const faqs = [
   },
   {
     question: "Can I use the code generated for commercial purposes?",
-    answer: "Indeed, the code and app output from Pico are yours to utilize for any intent, even commercially. It falls upon you to confirm your Pico usage aligns with all pertinent legal standards. It's worth noting that Pico retains the discretion to leverage the code as needed. Also, refrain from using Pico-produced code/apps to create a mirroring or rival solution.",
+    answer: "Indeed, the code and app output from Neurafox are yours to utilize for any intent, even commercially. It falls upon you to confirm your Neurafox usage aligns with all pertinent legal standards. It's worth noting that NeuraFox retains the discretion to leverage the code as needed. Also, refrain from using NeuraFox-produced code/apps to create a mirroring or rival solution.",
   },
   {
     question: "Can Neurafox generate apps for Android and iOS?",
-    answer: "No, Pico strictly produces web applications. These applications are adaptable and can be accessed via mobile or desktop browsers. Yet, they aren't designed to operate as native apps on Android or iOS.",
+    answer: "No, NeuraFox strictly produces web applications. These applications are adaptable and can be accessed via mobile or desktop browsers. Yet, they aren't designed to operate as native apps on Android or iOS.",
   },
   {
     question: "Are there limits to the paid plan?",
@@ -33,7 +33,7 @@ const faqs = [
   },
   {
     question: "What is your refund policy?",
-    answer: "We provide a 7-day refund assurance. If Pico doesn't meet your expectations, simply seek a refund within the initial 7 days from your subscription's commencement. It's a hassle-free process. We process refund queries within two days. Beyond the 7 days, you're free to terminate your subscription whenever you desire; however, pro rata refunds aren't an option, and you'll continue enjoying Pro benefits until your billing cycle concludes.",
+    answer: "We provide a 7-day refund assurance. If Neurafox doesn't meet your expectations, simply seek a refund within the initial 7 days from your subscription's commencement. It's a hassle-free process. We process refund queries within two days. Beyond the 7 days, you're free to terminate your subscription whenever you desire; however, pro rata refunds aren't an option, and you'll continue enjoying Pro benefits until your billing cycle concludes.",
   },
   {
     question: "How can I delete my account?",
