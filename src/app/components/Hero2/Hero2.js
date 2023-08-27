@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
-import Logo from '../../../../public/images/logo02.png'
+
 import Image from 'next/image'
 
 
@@ -11,7 +11,7 @@ const navigation = [
   { name: 'Features', href: '#' },
   { name: 'Blog', href: '#' },
   { name: 'Company', href: '#' },
-  { name: 'Log in', href: 'https://www.neurafox.com/sign-in', target:"_parent"  },
+  { name: 'Log in', href: 'https://www.neurafox.com/sign-in', target:"_parent"},
 ]
 
 export default function Example() {
@@ -68,7 +68,7 @@ export default function Example() {
                 <div className="space-y-2 py-6">
                   {navigation.map((item) => (
                     <a
-                      target="_parent" 
+                      target={item.target}
                       key={item.name}
                       href={item.href}
                       className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
@@ -108,7 +108,7 @@ export default function Example() {
               <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-xl">
                 <div className="hidden sm:mb-10 sm:flex">
                   <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-500 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-                    Anim aute id magna aliqua ad ad non deserunt sunt.{' '}
+                    Learn more about us.{' '}
                     <a target="_parent" href="https://www.neurafox.com/sign-up" className="whitespace-nowrap font-semibold text-indigo-600">
                       <span className="absolute inset-0" aria-hidden="true" />
                       try for free <span aria-hidden="true">&rarr;</span>

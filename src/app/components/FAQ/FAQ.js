@@ -25,7 +25,7 @@ const faqs = [
   },
   {
     question: "Are there limits to the paid plan?",
-    answer: "As of now, there's no cap on the apps or versions you craft. Likewise, the scalability of the MetaGPT app is boundless. We aim for your apps to gain widespread popularity, and thus, the expenses for ChatGPT queries are enveloped in your package. Still, we might consider introducing constraints down the road.",
+    answer: "As of now, there's no cap on the apps or versions you craft. Likewise, the scalability of the NeuraFox app is boundless. We aim for your apps to gain widespread popularity, and thus, the expenses for ChatGPT queries are enveloped in your package. Still, we might consider introducing constraints down the road.",
   },
   {
     question: "How can I cancel my subscription? Can I cancel my subscription at any time?",
