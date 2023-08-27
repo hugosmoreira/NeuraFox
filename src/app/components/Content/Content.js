@@ -45,9 +45,7 @@ export default function Example() {
             <figure className="border-l border-indigo-800 pl-8">
               <blockquote className="text-xl font-semibold leading-8 tracking-tight text-gray-900">
                 <p>
-                  “Vel ultricies morbi odio facilisi ultrices accumsan donec lacus purus. Lectus nibh ullamcorper ac
-                  dictum justo in euismod. Risus aenean ut elit massa. In amet aliquet eget cras. Sem volutpat enim
-                  tristique.”
+                  “Ive explored Bubble and similar platforms in the past, yet felt overwhelmed by their steep learning trajectories. With Pico, everything felt intuitive. I effortlessly crafted 135daily.com to showcase to my clientele”
                 </p>
               </blockquote>
               <figcaption className="mt-8 flex gap-x-4">
@@ -89,11 +87,11 @@ export default function Example() {
                 </span>
               </li>
             </ul>
-            <p className="mt-8">
+            {/* <p className="mt-8">
               Et vitae blandit facilisi magna lacus commodo. Vitae sapien duis odio id et. Id blandit molestie auctor
               fermentum dignissim. Lacus diam tincidunt ac cursus in vel. Mauris varius vulputate et ultrices hac
               adipiscing egestas. Iaculis convallis ac tempor et ut. Ac lorem vel integer orci.
-            </p>
+            </p> */}
             {/* <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">No server? No problem.</h2>
             <p className="mt-6">
               Id orci tellus laoreet id ac. Dolor, aenean leo, ac etiam consequat in. Convallis arcu ipsum urna nibh.

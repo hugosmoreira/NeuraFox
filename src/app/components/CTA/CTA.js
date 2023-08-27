@@ -9,8 +9,7 @@ export default function Example() {
               Start using our app today.
             </h2>
             <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-300">
-              Incididunt sint fugiat pariatur cupidatat consectetur sit cillum anim id veniam aliqua proident excepteur
-              commodo do ea.
+             Just describe your app idea and let NeuraFox do the rest.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
