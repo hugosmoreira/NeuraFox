@@ -45,7 +45,7 @@ export default function Example() {
             <figure className="border-l border-indigo-800 pl-8">
               <blockquote className="text-xl font-semibold leading-8 tracking-tight text-gray-900">
                 <p>
-                  “Ive explored Bubble and similar platforms in the past, yet felt overwhelmed by their steep learning trajectories. With Pico, everything felt intuitive. I effortlessly crafted 135daily.com to showcase to my clientele”
+                  “Ive explored Bubble and similar platforms in the past, yet felt overwhelmed by their steep learning trajectories. With NeuraFox, everything felt intuitive. I effortlessly crafted 135daily.com to showcase to my clientele”
                 </p>
               </blockquote>
               <figcaption className="mt-8 flex gap-x-4">
