@@ -38,7 +38,7 @@ export default function Example() {
               </button>
               <div className="hidden lg:ml-12 lg:flex lg:gap-x-14">
                 {navigation.map((item) => (
-                  <a key={item.name} href={item.href} className="text-sm font-semibold leading-6 text-gray-900">
+                  <a key={item.name} href={item.href} target={item.target} className="text-sm font-semibold leading-6 text-gray-900">
                     {item.name}
                   </a>
                 ))}
